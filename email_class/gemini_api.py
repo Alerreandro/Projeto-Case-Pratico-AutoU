@@ -65,6 +65,7 @@ if __name__ == '__main__':
     Preciso apresentar os resultados na sexta-feira.
     Obrigado,
     João Silva
+    
     """
     resultado1 = analisar_email(email_produtivo)
     print("--- Teste 1: Email Produtivo ---")

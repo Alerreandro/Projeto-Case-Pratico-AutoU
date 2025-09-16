@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function displayResults(data) {
         classificationResult.textContent = data.classificacao;
         responseSuggestion.textContent = data.sugestao_resposta;
-        errorMessage.classList.add('hidden');
+        errorMessage.classList.add('hidden'); 
     }
 
     function showError(message) {

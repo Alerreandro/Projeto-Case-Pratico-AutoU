@@ -1,4 +1,3 @@
-
 # Email Class
 
 Email Class é uma aplicação web desenvolvida em Python com Django que ajuda os usuários a gerenciar seus emails diários de forma eficiente. Com o Email Class, os usuários podem classificar a prioridade de seus emails, como improdutivo e produto e também a aplicação oferecer respostas automáticas, facilitando e otimizando o trabalho do usuário.
@@ -16,31 +15,40 @@ Email Class é uma aplicação web desenvolvida em Python com Django que ajuda o
 2. Clone o repositório do projeto:
 
     ```bash
-        git clone https://github.com/seu-usuario/planner-view.git
-        cd planner-view
+        git clone https://github.com/Alerreandro/Projeto-Case-Pratico-AutoU.git
+        cd Projeto-Case-Pratico-AutoU
     
 3. Instale as dependências:
     
     ```bash
-        pip install google-generativea python-decouple
-        
-        
-4. inicie o servidor Rails:
+        pip install -r requirements.txt
+
+4. Configure as Variáveis de Ambiente:
+
+    * Crie um arquivo .env na raiz do projeto
+    * Adicione dentro dele sua chave da [API do Gemini](https://aistudio.google.com/apikey)
+    
+    ```bash 
+        GEMINI_API_KEY="SUA_CHAVE_SECRETA_DA_API_AQUI"
+ 
+5. Inicie o Servidor Django:
 
     ```bash
         python manage.py runserver
-        
-5. Acesse a aplicação no seu navegador:
+    
+6. Acesse a aplicação no seu navegador:
 
     ```bash
         http://127.0.0.1:8000/
 
 ## Tecnologias Utilizadas
 
- * Django: Versão atual do framework para desenvolvimento web.
-* PostgreSQL: Versão atual do banco de dados utilizado para armazenar as informações.
-* Bootstrap: Framework CSS para o design da interface.
-* Chart.js: Biblioteca JavaScript para geração de gráficos interativos.
+ * Django: Versão 5.2.1.
+ * Python: Versão 3.11.3
+ * Google Gemini API
+ * HTML 
+ * CSS 
+ * JavaScript
 
 ## Licença
 Este projeto é licenciado sob os termos da licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes

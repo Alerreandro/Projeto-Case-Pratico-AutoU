@@ -1,10 +1,10 @@
-# Email Class
+# E-mail Class
 
-O Email Class é uma aplicação web desenvolvida em Python com Django que auxilia os usuários a gerenciar seus e-mails diários de forma eficiente. Ele classifica a prioridade dos e-mails em produtivo ou improdutivo e pode gerar respostas automáticas, otimizando o trabalho do usuário.
+O E-mail Class é uma aplicação web desenvolvida em Python com Django que auxilia os usuários a gerenciar seus e-mails diários de forma eficiente. Ele classifica a prioridade dos e-mails em produtivo ou improdutivo e pode gerar respostas automáticas, otimizando o trabalho do usuário.
 
 ## Funcionalidades
 
-- **Classificação de emails:** O usuário fornece um e-mail (digitando ou via arquivo .TXT) e o sistema retorna sua classificação como produtivo ou improdutivo.
+- **Classificação de e-mails:** O usuário fornece um e-mail (digitando ou via arquivo .TXT) e o sistema retorna sua classificação como produtivo ou improdutivo.
     
 - **Gerando respostas automáticas:** Após a classificação, o sistema sugere uma resposta automática baseada no conteúdo do e-mail analisado.
 

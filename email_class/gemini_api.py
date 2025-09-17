@@ -56,29 +56,3 @@ def analisar_email(texto_do_email: str) -> dict:
 
         print(f"Ocorreu um erro na API do Gemini: {e}")
         return {"erro": "Ocorreu um erro ao se comunicar com a API do Gemini."}
-
-if __name__ == '__main__':
-
-    email_produtivo = """
-    Olá equipe,
-    Gostaria de saber o status da requisição #4532. Poderiam me dar uma atualização?
-    Preciso apresentar os resultados na sexta-feira.
-    Obrigado,
-    João Silva
-    
-    """
-    resultado1 = analisar_email(email_produtivo)
-    print("--- Teste 1: Email Produtivo ---")
-    print(resultado1)
-
-    print("\n" + "="*30 + "\n")
-
-    email_improdutivo = """
-    E aí pessoal,
-    Só passando pra desejar um feliz natal e um próspero ano novo a todos!
-    Abraços,
-    Maria
-    """
-    resultado2 = analisar_email(email_improdutivo)
-    print("--- Teste 2: Email Improdutivo ---")
-    print(resultado2)

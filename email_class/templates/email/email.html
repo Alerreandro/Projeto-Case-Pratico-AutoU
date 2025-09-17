@@ -16,17 +16,17 @@
     <div class="container">
         <header>
             <h1>E-mail Class</h1>
-            <p>Insira o texto do e-mail ou envie um arquivo (.txt) para classificá-lo e receber uma sugestão de
+            <p>Insira o texto do e-mail ou envie um arquivo (.txt ou .pdf) para classificá-lo e receber uma sugestão de
                 resposta.</p>
         </header>
 
         <form id="email-form">
             <textarea id="email-text" name="email_text" rows="10"
-                placeholder="Cole o conteúdo do seu email aqui..."></textarea>
+                placeholder="Cole o conteúdo do seu e-mail aqui..."></textarea>
 
             <div class="file-upload-wrapper">
-                <label for="email-file">Ou faça upload de um arquivo .txt</label>
-                <input type="file" id="email-file" name="email_file" accept=".txt">
+                <label for="email-file">Ou faça upload de um arquivo (.txt ou .pdf)</label>
+                <input type="file" id="email-file" name="email_file" accept=".txt, .pdf">
             </div>
 
             <button type="submit" id="submit-btn">Analisar E-mail</button>

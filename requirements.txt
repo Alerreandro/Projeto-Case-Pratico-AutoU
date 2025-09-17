@@ -5,3 +5,4 @@ whitenoise
 python-dotenv
 gunicorn
 whitenoise[brotli]
+pdfplumber

@@ -1,0 +1,10 @@
+Olá, equipe.
+
+Estou tentando criar um gráfico de barras no meu dashboard de marketing, mas o filtro por "Período" não parece estar funcionando corretamente. Quando seleciono "Últimos 30 dias", o sistema continua mostrando os dados do ano inteiro.
+
+Já tentei limpar o cache do navegador, mas não resolveu. Podem verificar se há algum problema com a minha conta ou com a ferramenta?
+
+Meu usuário é mariana.costa@email.com.
+
+Obrigada,
+Mariana Costa

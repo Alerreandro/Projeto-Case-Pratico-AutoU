@@ -1,6 +1,6 @@
 Django
 google-generativeai
 python-decouple
-
+whitenoise
 python-dotenv
 whitenoise[brotli]
